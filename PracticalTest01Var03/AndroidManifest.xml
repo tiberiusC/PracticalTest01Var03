@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ro.pub.cs.systems.eim.practicaltest01var03"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".PracticalTest01Var03MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".PracticalTest01Var02PlayActivity"
+            android:label="Activitatea 2" >
+            <intent-filter>
+                <action android:name="android.intent.action.PracticalTest01Var02PlayActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    
+              
+         <service 
+      		android:name="ro.pub.cs.systems.eim.practical01var03.PracticalTest01Var03Service"
+      		android:label="Serviciu"
+      		android:enabled="true"
+     		 android:exported="false" />
+         
+         
+    </application>
+
+</manifest>
