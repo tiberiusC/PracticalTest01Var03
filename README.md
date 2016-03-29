@@ -1,1 +1,2 @@
-# PracticalTest01Var03
+Ciuca Tiberius Ionut
+grupa 342C1
